@@ -5,8 +5,8 @@ const router = Router()
 const Paciente = require('../model/paciente')
 
 router.get('/paciente', async (req, res) => {
-    const paciente = await Paciente.find()
-    res.json(paciente)
+
+    res.json({"hola": "mundo"})
 })
 
 router.post('/paciente', async (req, res) => {

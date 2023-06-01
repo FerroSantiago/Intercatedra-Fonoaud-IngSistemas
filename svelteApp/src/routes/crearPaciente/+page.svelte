@@ -3,7 +3,7 @@
     import Header from "../../components/Header.svelte";
     import "../../styles.css";
 
-    let APIURL = "https://intercatedra-fonoaud-ing-sistemas.vercel.app/paciente";
+    let APIURL = "http://localhost:3000/paciente";
     let listaPacientes = [
         {
             nombre: "",

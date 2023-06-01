@@ -23,7 +23,7 @@
 
     async function getPaciente() {
         const id = $page.params.slug;
-        const res = await fetch(`https://intercatedra-fonoaud-ing-sistemas.vercel.app/paciente/${id}`, {
+        const res = await fetch(`http://localhost:3000/paciente/${id}`, {
             method: "GET",
         });
         paciente = await res.json();

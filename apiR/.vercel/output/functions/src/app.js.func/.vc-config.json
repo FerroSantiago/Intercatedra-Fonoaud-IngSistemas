@@ -1,5 +1,0 @@
-{
-  "handler": "___now_launcher.launcher",
-  "runtime": "nodejs18.x",
-  "environment": {}
-}

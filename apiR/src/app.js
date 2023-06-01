@@ -6,7 +6,7 @@ require('./database/mongodb')
 
 app.use(cors())
 app.use(express.json())
-app.use(require('./routes/route.paciente'))
+app.use("/", require('./routes/route.paciente'))
 
 app.listen(app.get('port'), () =>{
     console.log(`puerto localhost abierto:${app.get('port')}`)
